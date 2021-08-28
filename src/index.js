@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './styles/App.css';
 
 
-import MarkDown from './App';
+import App from './App';
+
 
 ReactDOM.render(
- 
-    <MarkDown />,
+    <App />,
+  document.getElementById('drum-machine')
+)
 
-  document.getElementById('root')
-);
 
